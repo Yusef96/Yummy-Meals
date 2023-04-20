@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="img/logo.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/customize.css">
+    <title>Yummy</title>
+</head>
+
+<body class="text-capitalize">
+    <!-- *SECTION - loader page -->
+    <section id="loader">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+        <div class="box">
+            <div class="pizza-slice slice-1">
+                <div class="">
+                    <div class="crust"></div>
+                    <div class="cheese">
+                        <div class="peperoni p-1"></div>
+                        <div class="peperoni p-2"></div>
+                        <div class="peperoni p-3"></div>
+                        <div class="olive o-1"></div>
+                        <div class="olive o-3"></div>
+                        <div class="olive o-4"></div>
+                        <div class="olive o-6"></div>
+                        <div class="olive o-7"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pizza-slice slice-2">
+                <div class="">
+                    <div class="crust"></div>
+                    <div class="cheese">
+                        <div class="peperoni p-1"></div>
+                        <div class="peperoni p-2"></div>
+                        <div class="peperoni p-3"></div>
+                        <div class="olive o-1"></div>
+                        <div class="olive o-2"></div>
+                        <div class="olive o-3"></div>
+                        <div class="olive o-6"></div>
+                        <div class="olive o-7"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pizza-slice slice-3">
+                <div class="">
+                    <div class="crust"></div>
+                    <div class="cheese">
+                        <div class="peperoni p-1"></div>
+                        <div class="peperoni p-2"></div>
+                        <div class="peperoni p-3"></div>
+                        <div class="olive o-3"></div>
+                        <div class="olive o-4"></div>
+                        <div class="olive o-5"></div>
+                        <div class="olive o-6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pizza-slice slice-4">
+                <div class="">
+                    <div class="crust"></div>
+                    <div class="cheese">
+                        <div class="peperoni p-1"></div>
+                        <div class="peperoni p-2"></div>
+                        <div class="peperoni p-3"></div>
+                        <div class="olive o-1"></div>
+                        <div class="olive o-2"></div>
+                        <div class="olive o-3"></div>
+                        <div class="olive o-4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pizza-slice slice-5">
+                <div class="">
+                    <div class="crust"></div>
+                    <div class="cheese">
+                        <div class="peperoni p-1"></div>
+                        <div class="peperoni p-2"></div>
+                        <div class="peperoni p-3"></div>
+                        <div class="olive o-1"></div>
+                        <div class="olive o-2"></div>
+                        <div class="olive o-6"></div>
+                        <div class="olive o-7"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *SECTION - sidebar sec -->
+    <section id="Sidebarsec">
+        <div class="sideBar d-flex vh-100">
+            <div class="sidebarContent p-4 pe-0">
+                <ul class="ps-0 pe-md-3 list-style-none" id="sidebarLinks">
+                    <li class="mb-3"><a href="#search" class="yellow-hover sectionLink" id="serchLink">search</a></li>
+                    <li class="mb-3"><a href="#Categories" class="yellow-hover sectionLink"
+                            id="categoriesLink">Categories </a></li>
+                    <li class="mb-3"><a href="#Area" class="yellow-hover sectionLink" id="areaLink">Area</a></li>
+                    <li class="mb-3"><a href="#Ingredients" class="yellow-hover sectionLink"
+                            id="ingredientsLink">Ingredients</a></li>
+                    <li class="mb-3"><a href="#Contact" class="yellow-hover sectionLink" id="contactLink">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="sidebarFooter">
+                    <div class="socialIcons d-flex justify-content-start align-items-center mb-2">
+                        <a href="https://www.google.com" target="_blank" class="white-color yellow-hover"><i
+                                class="fa-solid fa-globe me-2"></i></a>
+                        <a href="https://www.facebook.com" target="_blank" class="white-color yellow-hover"><i
+                                class="fa-brands fa-facebook me-2"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="white-color yellow-hover"><i
+                                class="fa-brands fa-twitter me-2"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" class="white-color yellow-hover"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <div class="copyright white-color opacity-75">
+                        <p class="m-0">
+                            Copyright &#169; <span id="currentYear"></span> All Rights
+                            Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebarNavigator text-black">
+                <img src="img/logo.png" class="w-100" alt="">
+                <button class="menu" id="toggleSidebar"
+                    onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                    aria-label="Main Menu">
+                    <svg width="50" height="50" viewBox="0 0 100 100">
+                        <path class="line line1"
+                            d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                        <path class="line line2" d="M 20,50 H 80" />
+                        <path class="line line3"
+                            d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                </button>
+                <div class="navigator-icon d-flex w-100 justify-content-center align-items-center">
+                    <a href="https://www.google.com" target="_blank"><i
+                            class="fa-solid fa-globe me-2 black-color"></i></a>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *SECTION - search section -->
+    <section id="search">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-6 mb-2 m-md-0">
+                    <input type="text" id="serchByName" placeholder="Search By Name" class="form-control w-100">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" id="serchByLetter" placeholder="search By First Letter"
+                        class="form-control w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *SECTION - home page -->
+    <section id="home" class="">
+        <div class="container p-5">
+            <div class="row gy-3" id="allMealsContainer">
+            </div>
+        </div>
+    </section>
+    <!-- *SECTION - Meal Details -->
+    <section id="details" class="vh-100 px-md-5">
+        <div class="container p-5 position-relative">
+            <i class="fa-solid fa-xmark closeDetailsBtn"></i>
+            <div class="row detailsRow">
+            </div>
+        </div>
+    </section>
+    <!-- *SECTION - Categories -->
+    <section id="Categories">
+        <div class="container p-5">
+            <div class="row mainCat gy-4">
+            </div>
+        </div>
+    </section>
+    <!-- *SECTION - desplay Meals By Category -->
+    <section id="mealByCat">
+        <div class="container p-5">
+            <div class="row targetCat gy-4">
+            </div>
+        </div>
+    </section>
+    <!-- *SECTION - ingredient sec -->
+    <section id="Area">
+        <div class="container p-5">
+            <div class="row areaRow gy-4">
+            </div>
+        </div>
+    </section>
+    <!-- *SECTION - Area sec -->
+    <section id="Ingredients">
+        <div class="container p-5">
+            <div class="row ingredientRow gy-4">
+            </div>
+        </div>
+    </section>
+    <!-- *SECTION - contact section -->
+    <section id="Contact">
+        <div class="container p-5 text-center">
+            <div class="row g-4 mb-4">
+                <div class="col-md-6">
+                    <input type="text" id="name" class="form-control mb-2 contactInfo" placeholder="Enter Your Name">
+                    <div id="nameAlert" class="errorInput rounded">
+                        Special characters and numbers not allowed
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" id="email" class="form-control mb-2 contactInfo" placeholder="Enter Your Email">
+                    <div id="EmailAlert" class="errorInput rounded">
+                        Email not valid *exemple@yyy.zzz
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="number" id="phone" class="form-control mb-2 contactInfo" placeholder="Enter Your Phone Number">
+                    <div id="phoneAlert" class="errorInput rounded">
+                        Enter valid Phone Number
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="number" id="age" class="form-control mb-2 contactInfo" placeholder="Enter Your Age">
+                    <div id="ageAlert" class="errorInput rounded">
+                        Enter valid age
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="password" id="password" class="form-control mb-2 contactInfo" placeholder="Enter Your Password">
+                    <div id="passwordAlert" class="errorInput rounded">
+                        Enter valid password *Minimum eight characters, at least one letter and one number:*
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <input type="password" id="repassword" class="form-control mb-2 contactInfo" placeholder="Repassword">
+                    <div id="repasswordAlert" class="errorInput rounded">
+                        Enter valid repassword
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-outline-warning " id="submitBtn" disabled>Submit</button>
+
+        </div>
+    </section>
+    <!-- *NOTE - bootstrap js link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- *NOTE - jquery link -->
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <!-- *NOTE - js link -->
+    <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
